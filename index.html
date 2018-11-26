@@ -30,7 +30,37 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
 
 </head>
+<style>
 
+
+.outer {
+  
+  border: 1px solid transparent;
+  padding: em;
+  overflow-x: scroll;
+  max-width: 1000px;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.box {
+  margin-right:12px;
+  padding: 5em;
+  border: 2px solid blue;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-bottom:10px;
+}
+
+.box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+</style>
 <body id="top"> 
 
     <!-- pageheader
@@ -232,7 +262,7 @@
                         </div>
                         <div class="entry__excerpt">
                             <p>
-                                 If you’re thinking of starting your very own first blog, but just don’t have a clue on what to blog about, then fear not!In this article, I have included a whole load of blog examples from a wide variety of different niches...
+                                 If you’re thinking of starting your very own blog, but just don’t have a clue on what to blog about, then fear not!In this article, I have included a whole load of blog examples from a wide variety of different niches...
                             </p>
                         </div>
                         <div class="entry__meta">
@@ -648,7 +678,30 @@
 
         <div class="row top">
 
+
             <div class="col-eight md-six tab-full popular">
+            	<h2>These are the trainings available!</h2>
+        	<div class="outer">
+    <div class="flex">
+      <div class="box" onclick="myFunction1()">Training 1</div>
+      <div class="box"onclick="myFunction1()">Training 2</div>
+      <div class="box"onclick="myFunction1()">Training 3</div>
+      <div class="box"onclick="myFunction1()">Training 4</div>
+      <div class="box"onclick="myFunction1()">Training 5</div>
+      <div class="box"onclick="myFunction1()">Training 6</div>
+      <div class="box"onclick="myFunction1()">Training 7</div> 
+      <div class="box"onclick="myFunction1()">Training 8</div>
+      <div class="box"onclick="myFunction1()">Training 9</div>
+      <div class="box"onclick="myFunction1()">Training 10</div>
+      <div class="box"onclick="myFunction1()">Training 11</div>
+      <div class="box"onclick="myFunction1()">Training 12</div>
+    </div>
+  </div>
+  <script>
+                    function myFunction1() {
+                    alert("Training Enrollment not started!");
+                    }
+                    </script>
                 <h3>Most recent 6 Blogs</h3>
 
                 <div class="block-1-2 block-m-full popular__posts">
